@@ -1,0 +1,127 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    line-height: 18px;
+    font-style: normal;
+}
+
+body{
+   background-color: #8A51FC; 
+}
+
+.gif{
+   width: 220px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.container{
+    width: 375px;
+    background-color: #f4f4f4;  
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 24px;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 24px;
+}
+
+main{
+    padding: 40px;
+    margin-top: 40px;
+    
+}
+
+label{
+    font-size: 14px;
+    color: #777777;
+}
+
+select{
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+    color: #555555;
+}
+
+input{
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+}
+
+button{
+    background-color: #8A51FC;
+    color: #f4f4f4;
+    border-radius: 15px;
+    height: 48px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 36px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section{
+    border: 1px solid #8A51FC;
+    border-radius: 4px;
+}
+
+.currency-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name{
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value, .currency-value-to-convert{
+    font-weight: bold;
+    font-size: 20px;
+    color: #8A51FC;
+}
+
+.arrow-img{
+    margin: 15px auto;
+    display: block;
+}
+
